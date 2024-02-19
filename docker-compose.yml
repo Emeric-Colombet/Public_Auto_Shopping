@@ -1,0 +1,26 @@
+services:
+  auto-shopping:
+    build: .
+    environment:
+      - PYTHONPATH=/app
+      - COOKIDOO_CONFIG_FILE_PATH=config_docker.yml
+    networks:
+      - proxynet
+    depends_on:
+      - standalone-chrome
+
+  standalone-chrome:
+    image: selenium/standalone-chrome:111.0.5563.146-chromedriver-111.0.5563.64
+    shm_size: 2gb
+    volumes:
+      - db-data:/home/seluser/.config
+    ports:
+      - "4444:4444"
+      - "7900:7900"
+    networks:
+      - proxynet
+volumes:
+  db-data:
+networks:
+  proxynet:
+    name: custom_network

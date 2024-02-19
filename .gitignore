@@ -1,0 +1,12 @@
+auto_shopping_env
+data
+data_old
+NER Exploration
+Ingredient Conversion
+base_config.cfg
+config.cfg
+doccano_env_file.env
+*.pyc
+config.yml
+notes_personnelles/*
+auto-shopping-394807-7fe4e4c2e618.json

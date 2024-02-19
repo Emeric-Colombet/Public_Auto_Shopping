@@ -1,0 +1,5 @@
+username : "name.surname@gmail.com"
+password : "TEMPORALPASSWORD"
+chrome_user_data_dir : "/home/seluser/.config/google-chrome"
+chrome_user_data_profile : "Profile 1"
+window_size : "1300,1000"
