@@ -7,7 +7,9 @@ This project is an application who use Artificial Intelligence 🤖 (NER) to rea
 Current developments work on Cookidoo application (Thermomix) for the shopping list and work on Carrefour for the supermarket drive.
 Because we can't have access to the API's of those services, we will use scrapping on those sites.
 
-### Example
+### Programm in action :
+
+![alt text](https://github.com/Emeric-Colombet/Public_Auto_Shopping/blob/main/src/common/gifs/demo_scrapping.gif "Gif test")
 
 #### Connection
 
@@ -164,7 +166,3 @@ Next features to develop.
 - [ ] Add a method to find not supermarket's ingredient name, but supermarket's ingredient id.
 
 - [ ] Change history matching function to a better match.
-
-
-Gif test 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
