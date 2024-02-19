@@ -165,7 +165,6 @@ Next features to develop.
 
 - [ ] Change history matching function to a better match.
 
-Gif test  
-![alt text][giflink]
 
-[giflink]: https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTFxaHFuZmY5MWRtMnpwZ254bnVxeXJ1NXQ0aGhoZmIzZzdxenBoZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LBgmyXjkls7gZ3ReTp/giphy-downsized-large.gif
+Gif test 
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
